@@ -1,0 +1,19 @@
+ion-list{
+    display: grid;
+    justify-content: center;
+    ion-label{
+        color: var(--ion-color-two);
+        font-weight: 400;
+    }
+    ion-button{
+        color: white;
+        font-weight: 400;
+        --background: var(--ion-color-two);
+        width: 25vw;
+        border-radius: 12vw;
+    }
+}
+
+// ion-label{
+//     color: var(--ion-color-two);
+// }

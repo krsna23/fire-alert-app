@@ -1,0 +1,52 @@
+
+
+.main{
+    background-image: url(../../../../assets/background1.png);
+    background-size: 100vw;
+    margin: 3vw;
+}
+
+.first-line{
+    display: flex;
+    margin-left: 13vw;
+}
+
+.hello{
+    color: var(--ion-color-one);
+    margin: 5vh 3vw 0 3vw;
+    font-size: 4vw;
+}
+
+.welcome{
+    font-size: 8vw;
+}
+
+.heading{
+    font-size: 11vw;
+    margin-left: 8vw;
+    margin-top: -2vh;
+    color: var(--ion-color-two);
+}
+
+.para2{
+    margin: 4vh 4vw;
+}
+
+.para3{
+
+}
+
+.heading2{
+    margin: 4vh 3vw 0;
+    color: var(--ion-color-two);
+    font-size: 2vh;
+}
+
+.para3{
+    margin: 0 4vw;
+}
+.heading4{
+    color: var(--ion-color-two);
+    font-size: 2vh;
+}
+

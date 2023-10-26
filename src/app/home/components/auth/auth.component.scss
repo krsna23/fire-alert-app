@@ -1,0 +1,51 @@
+.all{
+    height: 88vh;
+    background-image: url(../../../../assets/background1.png);
+    height: 88vh;
+    background-size: 100vw;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    
+    .fire-text{
+        font-size: 36px;
+        font-weight: 700;
+        color: var(--ion-color-two);
+    }
+
+    .fire-icon{
+        font-size: 44px;
+        color: var(--ion-color-one);
+    }
+}
+
+
+.subtitle{
+    font-size: 18px;
+    margin: 5vh 0vw 2vh 6vw;
+}
+
+ion-card{
+    width: 80vw;
+    height: 40vh;
+    font-size:29px;
+    padding: 2vh 2vw;
+    ion-item{
+        margin: 4vh 1vw;
+    }
+    ion-card-content{
+        padding-top: 1vh;
+        font-size: 20px;
+        ion-button{
+            width: 14vw;
+            height: 3vh;
+            margin-bottom: 3vh;
+            margin-left: 2vw;
+        }
+    }
+
+}

@@ -1,0 +1,55 @@
+.all{
+    position: absolute;
+    width: 100%;
+    height: 88vh;
+    background: url(../../../../assets/background1.png) no-repeat;
+    background-size: cover;
+}
+
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    
+    .fire-text{
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--ion-color-two);
+    }
+
+    .fire-icon{
+        font-size: 30px;
+        color: var(--ion-color-one);
+    }
+}
+
+
+.subtitle{
+    font-size: 18px;
+    margin: 5vh 0vw 2vh 6vw;
+}
+
+
+ion-accordion-group{
+    background: rgba(255, 255, 255, 0.011);
+}
+
+.acco{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Change the alpha value to control the transparency */
+    z-index: 1; /* Ensure it's above the background */
+}
+
+.ion-padding{
+    background: rgba(255, 255, 255, 0.01);
+    z-index: 1;
+}
+
+.each{
+    background: content-box;
+}
+
